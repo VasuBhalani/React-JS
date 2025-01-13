@@ -5,10 +5,13 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  const name = 'Vasu';
+  // we use only evaluted expressions because when react tree then var enjection is done at the end
+  // so we can't use if else here
   return (
     <>
       <div>
+        <h1>Hello {name}</h1>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -16,18 +19,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <h2>Vite + React</h2>
     </>
   )
 }
