@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import './index.css';
 import App from './App.jsx';
 import React from 'react';
-
+import Profile from './Props.jsx';
 const customObject =(
     <div>
       <h2>Custom Object by Chai aur Code</h2>
@@ -37,8 +37,8 @@ const reactEle = React.createElement(
 const root = createRoot(document.getElementById('root'));
 root.render(
   <>
-    <App />
-    {reactEle}
+    {/* <App /> */}
+    <Profile/>
   </>
   
 );
