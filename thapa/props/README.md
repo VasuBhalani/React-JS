@@ -40,3 +40,17 @@ Named imports must be enclosed in curly braces.
         <p> how are you?</p>
     <profile/>      
     ```             
+- Style modules in css
+  - Global CSS like index.css that we can use in any component but if we have some specific style  which is specific for some specific component then use name.module.css
+  - Name your CSS module files with the .module.css or .module.scss extension.
+  - Import the CSS module file in your React component.
+  - Access class names as properties of the imported <b style='color: orange'>styles object</b>.
+  - Combine multiple class names using template literals or the class
+library.
+Dynamically apply class names based on component state and props
+
+- ![alt text](image-2.png)
+
+- ![alt text](image-3.png)
+
+- ![alt text](image-4.png)
