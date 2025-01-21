@@ -1,0 +1,42 @@
+/*1rem = 16px */
+
+.container{
+  height: 1000px;
+  width:1000px;
+  border: 2px solid black;
+  margin: 1rem auto;
+  background-color: #F5EFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  width:100px;
+  padding: 0.625rem 1.25rem; 
+  font-size:1rem;
+  background-color: #8B5DFF;
+  color:aliceblue;
+  border:none;
+  box-shadow: 2px 2px 20px #8B5DFF;
+  margin-bottom: 50px;
+}
+
+button:hover{
+  background-color: #5D3EFF;
+  cursor: pointer;
+}
+
+input{
+  padding: 0.625rem 1.25rem; 
+  font-size:1rem;
+  background-color: #8B5DFF;
+  color:white;
+  border:none;
+  box-shadow: 2px 2px 20px #8B5DFF;
+  margin: 50px;
+}
+
+input::placeholder {
+  color: white;
+}
