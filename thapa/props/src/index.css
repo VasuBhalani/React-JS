@@ -4,14 +4,14 @@
   box-sizing: border-box;
   font-family:'Urbanist', sans-serif ;
 }
-
+/* 
 html{
   background-color: #F5EFFF;
   font-size: 62.5%;
-}
+} */
 
 
-p,li,a,label{
+/* p,li,a,label{
   font-size:1.6rem;
   letter-spacing: 0.1rem;
   color:var(--para-color);
@@ -40,8 +40,6 @@ a{
   --bnt-hover-bg-color: ☐ #003b99;
   --btn-box-shadow: ☐ rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-  /* layout */
-
 .container {
     max-width: 142rem;
     margin: 0 auto;
@@ -57,4 +55,4 @@ a{
 }
 .grid-three--cols {
   grid-template-columns: repeat(3, 1fr);
-}
+} */
